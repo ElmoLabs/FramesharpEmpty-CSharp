@@ -48,8 +48,8 @@
     <Reference Include="Framesharp.DomainService">
       <HintPath>..\Resources\Framesharp.DomainService.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Persistence">
-      <HintPath>..\Resources\Framesharp.Persistence.dll</HintPath>
+    <Reference Include="Framesharp.Data">
+      <HintPath>..\Resources\Framesharp.Data.dll</HintPath>
     </Reference>
     <Reference Include="Framesharp.ServiceModel">
       <HintPath>..\Resources\Framesharp.ServiceModel.dll</HintPath>

@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Reflection;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
-using Framesharp.Persistence.Interceptors;
+using Framesharp.Data.Interceptors;
 using NHibernate;
 using NHibernate.Bytecode;
 using NHibernate.Cfg;

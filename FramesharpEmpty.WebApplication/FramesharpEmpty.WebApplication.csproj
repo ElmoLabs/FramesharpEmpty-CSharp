@@ -43,31 +43,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Framesharp.Configuration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Framesharp.Configuration">
       <HintPath>..\Resources\Framesharp.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Framesharp.Core">
       <HintPath>..\Resources\Framesharp.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.DependencyInjection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Framesharp.DependencyInjection">
       <HintPath>..\Resources\Framesharp.DependencyInjection.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Domain, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Framesharp.Domain">
       <HintPath>..\Resources\Framesharp.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.DomainService, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Framesharp.DomainService">
       <HintPath>..\Resources\Framesharp.DomainService.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Persistence, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Resources\Framesharp.Persistence.dll</HintPath>
-    </Reference>
-    <Reference Include="Framesharp.Presentation.Web">
-      <HintPath>..\Resources\Framesharp.Presentation.Web.dll</HintPath>
+    <Reference Include="Framesharp.Data">
+      <HintPath>..\Resources\Framesharp.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="StructureMap">

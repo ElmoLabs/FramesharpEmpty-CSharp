@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FramesharpEmpty.Configuration", "FramesharpEmpty.Configuration\FramesharpEmpty.Configuration.csproj", "{D44A2443-6BFB-4911-BE5D-41A642D39A5D}"
 EndProject
@@ -29,45 +29,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Application", "Web Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FramesharpEmpty.WebApplication", "FramesharpEmpty.WebApplication\FramesharpEmpty.WebApplication.csproj", "{FC71ADF4-78DE-431F-99F3-8C8CD354F346}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{ACD28495-6153-4DF5-AEB8-899DE90886EB}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Framesharp.Collection.dll = Resources\Framesharp.Collection.dll
+		Resources\Framesharp.Configuration.dll = Resources\Framesharp.Configuration.dll
+		Resources\Framesharp.Core.dll = Resources\Framesharp.Core.dll
+		Resources\Framesharp.Data.Collection.dll = Resources\Framesharp.Data.Collection.dll
+		Resources\Framesharp.Data.dll = Resources\Framesharp.Data.dll
+		Resources\Framesharp.Data.Transaction.dll = Resources\Framesharp.Data.Transaction.dll
+		Resources\Framesharp.DependencyInjection.dll = Resources\Framesharp.DependencyInjection.dll
+		Resources\Framesharp.DependencyInjection.Registry.dll = Resources\Framesharp.DependencyInjection.Registry.dll
+		Resources\Framesharp.Domain.dll = Resources\Framesharp.Domain.dll
+		Resources\Framesharp.DomainService.dll = Resources\Framesharp.DomainService.dll
+		Resources\Framesharp.Repository.dll = Resources\Framesharp.Repository.dll
+		Resources\Framesharp.ServiceModel.dll = Resources\Framesharp.ServiceModel.dll
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://claudiocidade.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = FramesharpEmpty.Configuration\\FramesharpEmpty.Configuration.csproj
-		SccProjectTopLevelParentUniqueName1 = FramesharpEmpty.sln
-		SccProjectName1 = FramesharpEmpty.Configuration
-		SccLocalPath1 = FramesharpEmpty.Configuration
-		SccProjectUniqueName2 = FramesharpEmpty.Domain\\FramesharpEmpty.Domain.csproj
-		SccProjectTopLevelParentUniqueName2 = FramesharpEmpty.sln
-		SccProjectName2 = FramesharpEmpty.Domain
-		SccLocalPath2 = FramesharpEmpty.Domain
-		SccProjectUniqueName3 = FramesharpEmpty.DomainService\\FramesharpEmpty.DomainService.csproj
-		SccProjectTopLevelParentUniqueName3 = FramesharpEmpty.sln
-		SccProjectName3 = FramesharpEmpty.DomainService
-		SccLocalPath3 = FramesharpEmpty.DomainService
-		SccProjectUniqueName4 = FramesharpEmpty.Repository\\FramesharpEmpty.Repository.csproj
-		SccProjectTopLevelParentUniqueName4 = FramesharpEmpty.sln
-		SccProjectName4 = FramesharpEmpty.Repository
-		SccLocalPath4 = FramesharpEmpty.Repository
-		SccProjectUniqueName5 = FramesharpEmpty.DomainService.Test\\FramesharpEmpty.DomainService.Test.csproj
-		SccProjectTopLevelParentUniqueName5 = FramesharpEmpty.sln
-		SccProjectName5 = FramesharpEmpty.DomainService.Test
-		SccLocalPath5 = FramesharpEmpty.DomainService.Test
-		SccProjectUniqueName6 = FramesharpEmpty.Service\\FramesharpEmpty.Service.csproj
-		SccProjectTopLevelParentUniqueName6 = FramesharpEmpty.sln
-		SccProjectName6 = FramesharpEmpty.Service
-		SccLocalPath6 = FramesharpEmpty.Service
-		SccProjectUniqueName7 = FramesharpEmpty.Database\\FramesharpEmpty.Database.sqlproj
-		SccProjectTopLevelParentUniqueName7 = FramesharpEmpty.sln
-		SccProjectName7 = FramesharpEmpty.Database
-		SccLocalPath7 = FramesharpEmpty.Database
-		SccProjectUniqueName8 = FramesharpEmpty.WebApplication\\FramesharpEmpty.WebApplication.csproj
-		SccProjectTopLevelParentUniqueName8 = FramesharpEmpty.sln
-		SccProjectName8 = FramesharpEmpty.WebApplication
-		SccLocalPath8 = FramesharpEmpty.WebApplication
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -112,10 +90,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{D44A2443-6BFB-4911-BE5D-41A642D39A5D} = {62E926B5-53E0-4456-8C32-182995C97836}
 		{9E626CCB-45DF-4735-A8F0-276E98E71689} = {62E926B5-53E0-4456-8C32-182995C97836}
 		{8F0F2D43-2445-4E5B-8C06-32D97B4BD147} = {62E926B5-53E0-4456-8C32-182995C97836}
 		{B0AD3212-9988-4B95-A9FE-22C5FA7470EA} = {62E926B5-53E0-4456-8C32-182995C97836}
-		{D44A2443-6BFB-4911-BE5D-41A642D39A5D} = {62E926B5-53E0-4456-8C32-182995C97836}
 		{BF27B31B-8845-4B8F-A025-0E51ACB43C70} = {1296F789-07B6-4583-AB58-A81EA31F59AD}
 		{0D418C44-B781-48C3-BA9A-2171E6755711} = {791E8A22-0FE7-4F29-8949-ED228308511E}
 		{DAF96426-8213-47B2-9DD9-6142940CBD45} = {636A16AD-51F4-4613-8524-F16DCDC3426D}

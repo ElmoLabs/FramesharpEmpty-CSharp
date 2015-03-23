@@ -1,6 +1,7 @@
 ﻿using System;
+using Framesharp.Core;
 using Framesharp.DomainService;
-using Framesharp.Persistence.Transaction;
+using Framesharp.Data.Transaction;
 using FramesharpEmpty.Configuration;
 using FramesharpEmpty.Domain;
 using FramesharpEmpty.DomainService.Interfaces;
@@ -9,13 +10,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace FramesharpEmpty.DomainService.Test
 {
     [TestClass]
-    public class DemonstrationDomainServiceTest : Framesharp.Test.TestClassBase
+    public class DemonstrationDomainServiceTest
     {
         private readonly IDemonstrationDomainService _demonstrationDomainService;
 
         public DemonstrationDomainServiceTest() : base(new RootApplicationSettings())
         {
-            _demonstrationDomainService = DomainServiceFactory.Get<IDemonstrationDomainService>(this.OperationCallContext);
+            _demonstrationDomainService = DomainServiceFactory.Get<IDemonstrationDomainService>(OperationCallContext.Current);
         }
 
         /// <summary>

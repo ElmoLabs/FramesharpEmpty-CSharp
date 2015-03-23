@@ -1,6 +1,6 @@
 ﻿using Framesharp.Core.Interfaces;
 using Framesharp.DomainService;
-using Framesharp.Persistence.Transaction;
+using Framesharp.Data.Transaction;
 using Framesharp.Repository;
 using FramesharpEmpty.Domain;
 using FramesharpEmpty.DomainService.Interfaces;

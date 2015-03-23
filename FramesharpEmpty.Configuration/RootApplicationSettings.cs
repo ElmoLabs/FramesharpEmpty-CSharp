@@ -27,7 +27,6 @@ namespace FramesharpEmpty.Configuration
                     { new Framesharp.DependencyInjection.Registry.CoreRegistry() },
                     { new Framesharp.DependencyInjection.Registry.DomainServiceRegistry() },
                     { new Framesharp.DependencyInjection.Registry.RepositoryRegistry() },
-                    { new Framesharp.DependencyInjection.Registry.ServiceModelRegistry() },
                     { new DependencyInjectionRegistry() }
                 };
         }

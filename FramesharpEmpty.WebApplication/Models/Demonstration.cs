@@ -1,9 +1,8 @@
 ﻿using System;
-using Framesharp.Presentation.Web.Mvc.Models;
 
 namespace FramesharpEmpty.WebApplication.Models
 {
-    public class Demonstration : ModelBase
+    public class Demonstration
     {
         public static implicit operator Domain.Demonstration(Models.Demonstration model)
         {

@@ -52,11 +52,11 @@
     <Reference Include="Framesharp.DomainService">
       <HintPath>..\Resources\Framesharp.DomainService.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Persistence">
-      <HintPath>..\Resources\Framesharp.Persistence.dll</HintPath>
+    <Reference Include="Framesharp.Data">
+      <HintPath>..\Resources\Framesharp.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Persistence.Transaction">
-      <HintPath>..\Resources\Framesharp.Persistence.Transaction.dll</HintPath>
+    <Reference Include="Framesharp.Data.Transaction">
+      <HintPath>..\Resources\Framesharp.Data.Transaction.dll</HintPath>
     </Reference>
     <Reference Include="Framesharp.Test">
       <HintPath>..\Resources\Framesharp.Test.dll</HintPath>
