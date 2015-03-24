@@ -61,9 +61,6 @@
     <Reference Include="Framesharp.Test">
       <HintPath>..\Resources\Framesharp.Test.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Test.Persistence">
-      <HintPath>..\Resources\Framesharp.Test.Persistence.dll</HintPath>
-    </Reference>
     <Reference Include="PostSharp, Version=4.1.8.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\PostSharp.4.1.8-beta\lib\net35-client\PostSharp.dll</HintPath>
