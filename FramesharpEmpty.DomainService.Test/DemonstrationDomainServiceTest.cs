@@ -23,7 +23,7 @@ namespace FramesharpEmpty.DomainService.Test
         /// Creates a new Demonstration record
         /// </summary>
         [TestMethod]
-        [TransactionScope(DefaultRollback = true)]
+        [TransactionScope(DefaultRollback = false)]
         public void CreateDemonstrationTest()
         {
             Demonstration demonstration = new Demonstration()

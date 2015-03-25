@@ -43,6 +43,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{
 		Resources\Framesharp.DomainService.dll = Resources\Framesharp.DomainService.dll
 		Resources\Framesharp.Repository.dll = Resources\Framesharp.Repository.dll
 		Resources\Framesharp.ServiceModel.dll = Resources\Framesharp.ServiceModel.dll
+		Resources\Framesharp.Test.dll = Resources\Framesharp.Test.dll
 	EndProjectSection
 EndProject
 Global
