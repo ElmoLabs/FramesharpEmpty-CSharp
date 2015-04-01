@@ -40,7 +40,7 @@ namespace FramesharpEmpty.Service.Transcriptors
             result.SomeDescription  = source.SomeDescription;
             result.SomeFlag         = source.SomeFlag;
             result.SomeNumber       = source.SomeNumber;
-            result.CreationDate     = source.CreationDate ?? new DateTime();
+            result.CreationDate     = source.CreationDate;
             result.EditionDate      = source.EditionDate ?? new DateTime();
 
             return result;
@@ -82,7 +82,6 @@ namespace FramesharpEmpty.Service.Transcriptors
             result.SomeDescription  = source.SomeDescription;
             result.SomeFlag         = source.SomeFlag;
             result.SomeNumber       = source.SomeNumber;
-            result.CreationDate     = source.CreationDate;
             result.EditionDate      = source.EditionDate;
 
             return result;

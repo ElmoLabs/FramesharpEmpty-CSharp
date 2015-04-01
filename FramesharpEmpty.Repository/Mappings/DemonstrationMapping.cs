@@ -13,7 +13,7 @@ namespace FramesharpEmpty.Repository.Mappings
             Map(c => c.SomeDescription);
             Map(c => c.SomeNumber);
             Map(c => c.SomeFlag);
-            Map(c => c.CreationDate).ReadOnly();
+            Map(c => c.CreationDate).ReadOnly().Not.Insert().Not.Update();
             Map(c => c.EditionDate).Nullable();
         }
     }
